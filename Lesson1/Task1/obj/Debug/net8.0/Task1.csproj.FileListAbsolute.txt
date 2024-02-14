@@ -12,3 +12,4 @@
 /Users/moonpie/Desktop/CSHARP/Lesson1/Task1/obj/Debug/net8.0/Task1.pdb
 /Users/moonpie/Desktop/CSHARP/Lesson1/Task1/obj/Debug/net8.0/Task1.genruntimeconfig.cache
 /Users/moonpie/Desktop/CSHARP/Lesson1/Task1/obj/Debug/net8.0/ref/Task1.dll
+/Users/moonpie/Desktop/CSHARP/Lesson1/Task1/obj/Debug/net8.0/Task1.sourcelink.json
