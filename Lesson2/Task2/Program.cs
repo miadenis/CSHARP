@@ -14,7 +14,7 @@ int i = 0; //счетчик
 //while (i < n) можно так и как ниже
 while (i < arr.Length)
 {
-    arr[i] = i +1;
+    arr[i] = i + 1;
     //Console.Write(arr[i]);
     //Console.Write(' ');
     Console.Write($"{arr[i]} ");
