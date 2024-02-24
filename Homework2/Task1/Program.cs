@@ -45,36 +45,36 @@ class Answer
         UserInputToCompileForTest.PrintResult(array);
     }
 }
+//Решение автотеста:
 
-/*
 using System;
 using System.Linq;
 
 //Тело класса будет написано студентом. Класс обязан иметь статический метод PrintResult()
 class UserInputToCompileForTest
 { 
+
     // Подсчет количества элементов массива, попадающих в заданный диапазон
     // numbers - массив, в котором ведется подсчет
     // minRange - минимальная граница диапазона
     // maxRange - максимальная граница диапазона
     public static int CountItemsRange(int[] numbers, int minRange, int maxRange)
     {
-        int count = 0;
-        foreach (var number in numbers)
+        int cnt = 0;
+        for (int i = 0; i < numbers.Length; i++)
         {
-            if (number >= minRange && number <= maxRange)
+            if (numbers[i] >= minRange && numbers[i] <= maxRange)
             {
-                count++;
+                cnt++;
             }
         }
-        return count;
+        return cnt;
     }
-    
+
     public static void PrintResult(int[] array)
     {
-        
-        int count = CountItemsRange(array, 10, 90);
-        Console.WriteLine($"{count}");
+
+        Console.WriteLine(CountItemsRange(array, 10, 90));
     }
 
 }
@@ -86,7 +86,7 @@ class Answer
     public static void Main(string[] args)
     {
         int[] array;
-        
+
 
         if (args.Length >= 1) {
             // Объединяем все аргументы командной строки в одну строку
@@ -96,9 +96,9 @@ class Answer
             array = joinedArgs.Split(", ")
                                   .Select(int.Parse)
                                   .ToArray();
-            
+
             // Теперь arr содержит преобразованные в целые числа из командной строки
-        
+
         } else {
            // Если аргументов на входе нет
             array = new int[] {1, 5, 10, 20, 30, 40, 99, 4, 90, 3}; // Создание массива
@@ -106,4 +106,4 @@ class Answer
         UserInputToCompileForTest.PrintResult(array);
     }
 }
-*/
+
